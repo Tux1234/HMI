@@ -1,4 +1,4 @@
-package com.example.power.hmi;
+package com.example.power.hmicolors;
 
 /**
  * Created by power on 16.12.2017.
@@ -6,9 +6,10 @@ package com.example.power.hmi;
 
 public interface InterfaceResult {
 
-    void set_highscore(ImplResult result);
-    ImplResult get_highscore();
-    void update_highscore(ImplResult result);
+    void set_answers();
+    String get_answer(Integer id);
+    void update_highscore();
+    Integer get_highscore();
     void delete_highscore(ImplResult result);
 
 }
