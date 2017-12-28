@@ -1,4 +1,4 @@
-package com.example.power.hmi;
+package com.example.power.hmicolors;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.power.hmi", appContext.getPackageName());
+        assertEquals("com.example.power.hmicolors", appContext.getPackageName());
     }
 }
